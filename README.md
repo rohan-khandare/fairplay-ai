@@ -24,16 +24,10 @@ cd fairplay-ai
 pip install -r requirements.txt'
 
 Ensure your .streamlit/secrets.toml contains:
-
-toml
-Copy
-Edit
 GROQ_API_KEY = "your_groq_api_key"
 
 📁 Project Structure
-bash
-Copy
-Edit
+
 fairplay-ai/
 ├── app.py                     # Streamlit UI
 ├── task_agent.py              # Query handling and intent routing
